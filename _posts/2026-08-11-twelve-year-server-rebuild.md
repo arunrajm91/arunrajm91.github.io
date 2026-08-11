@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rebuilding a server that ran for twelve years"
-date: 2026-08-12 10:00:00 +0530
+date: 2026-08-11 10:00:00 +0530
 ---
 
 A production API server on Ubuntu 12.04 — an OS that went EOL in 2017 — was still serving real traffic in 2026. It finally had to move: its OpenSSL 1.0.1 was old enough that modern TLS clients were failing to connect, it still accepted TLS 1.0, and the workload needed to relocate to a closer region anyway. This is how you move twelve years of accumulated production without an outage, and what the process teaches you about the server you thought you knew.

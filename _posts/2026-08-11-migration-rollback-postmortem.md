@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rolling back a migration the day after cutover"
-date: 2026-08-12 13:00:00 +0530
+date: 2026-08-11 13:00:00 +0530
 ---
 
 This year I cut over a self-hosted Bitbucket Data Center instance — roughly 350 repositories, 28,000 pull requests, 2,500 users — from version 7.x on MySQL to 9.x on PostgreSQL, on new infrastructure. The cutover went smoothly. The day after, a developer comparing a pull request against their local history found commits "missing" on the new server, and within hours I had made the call to roll back to the old one.

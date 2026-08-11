@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The economics of leaving a datacenter"
-date: 2026-08-12 11:00:00 +0530
+date: 2026-08-11 11:00:00 +0530
 ---
 
 I was asked to look at two baremetal servers at a US hosting provider, billing about $675 a month between them, with a simple question attached: migrate or decommission? The audit that answers that question turned out to be far more valuable than the monthly saving — because nobody had looked at these machines, really looked, in years.
