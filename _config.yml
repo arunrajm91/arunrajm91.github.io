@@ -1,0 +1,22 @@
+title: Arunraj M
+description: >-
+  Infrastructure engineering notes — AWS, Azure, Terraform, Ansible,
+  migrations, and cloud cost. Written from production, not tutorials.
+url: "https://arunrajm91.github.io"
+author:
+  name: Arunraj M
+  email: arunraj.5588@gmail.com
+
+theme: minima
+show_excerpts: true
+
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/arunrajm91" }
+
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
